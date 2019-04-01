@@ -15,12 +15,12 @@
 		284AB738224CC99900CD4837 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 284AB737224CC99900CD4837 /* Assets.xcassets */; };
 		284AB73B224CC99900CD4837 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 284AB739224CC99900CD4837 /* LaunchScreen.storyboard */; };
 		284AB746224CCA9C00CD4837 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284AB745224CCA9C00CD4837 /* APIManager.swift */; };
-		284AB749224CCB6A00CD4837 /* LivePhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284AB748224CCB6A00CD4837 /* LivePhoto.swift */; };
 		284AB74C224CD0D600CD4837 /* LiveWallpaper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284AB74B224CD0D600CD4837 /* LiveWallpaper.swift */; };
 		284AB74F224CDF3D00CD4837 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284AB74E224CDF3D00CD4837 /* Extensions.swift */; };
 		284AB751224CEE4C00CD4837 /* LivePhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284AB750224CEE4C00CD4837 /* LivePhotoViewController.swift */; };
 		284AB753224D36C700CD4837 /* Links.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284AB752224D36C700CD4837 /* Links.swift */; };
 		284AB757224D73AB00CD4837 /* LiveWallpaperCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284AB756224D73AB00CD4837 /* LiveWallpaperCell.swift */; };
+		28B3CD2C225298610013F616 /* LivePhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B3CD2B225298610013F616 /* LivePhoto.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,12 +33,12 @@
 		284AB73A224CC99900CD4837 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		284AB73C224CC99900CD4837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		284AB745224CCA9C00CD4837 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
-		284AB748224CCB6A00CD4837 /* LivePhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LivePhoto.swift; path = ../../../../../Desktop/LivePhoto.swift; sourceTree = "<group>"; };
 		284AB74B224CD0D600CD4837 /* LiveWallpaper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveWallpaper.swift; sourceTree = "<group>"; };
 		284AB74E224CDF3D00CD4837 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		284AB750224CEE4C00CD4837 /* LivePhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivePhotoViewController.swift; sourceTree = "<group>"; };
 		284AB752224D36C700CD4837 /* Links.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Links.swift; sourceTree = "<group>"; };
 		284AB756224D73AB00CD4837 /* LiveWallpaperCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveWallpaperCell.swift; sourceTree = "<group>"; };
+		28B3CD2B225298610013F616 /* LivePhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LivePhoto.swift; sourceTree = "<group>"; };
 		7DA594F15896CB27D22C19D9 /* Pods-LiveWallpaperApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveWallpaperApp.release.xcconfig"; path = "Target Support Files/Pods-LiveWallpaperApp/Pods-LiveWallpaperApp.release.xcconfig"; sourceTree = "<group>"; };
 		E274ED55B22941A6E95FCF6F /* Pods-LiveWallpaperApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveWallpaperApp.debug.xcconfig"; path = "Target Support Files/Pods-LiveWallpaperApp/Pods-LiveWallpaperApp.debug.xcconfig"; sourceTree = "<group>"; };
 		FC73659502199DD7C38D57D3 /* Pods_LiveWallpaperApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiveWallpaperApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -129,7 +129,7 @@
 		284AB747224CCB2900CD4837 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
-				284AB748224CCB6A00CD4837 /* LivePhoto.swift */,
+				28B3CD2B225298610013F616 /* LivePhoto.swift */,
 			);
 			path = Libs;
 			sourceTree = "<group>";
@@ -308,9 +308,9 @@
 				284AB751224CEE4C00CD4837 /* LivePhotoViewController.swift in Sources */,
 				284AB746224CCA9C00CD4837 /* APIManager.swift in Sources */,
 				284AB730224CC99900CD4837 /* LiveWallpaperViewController.swift in Sources */,
+				28B3CD2C225298610013F616 /* LivePhoto.swift in Sources */,
 				284AB753224D36C700CD4837 /* Links.swift in Sources */,
 				284AB736224CC99900CD4837 /* LiveWallpaperApp.xcdatamodeld in Sources */,
-				284AB749224CCB6A00CD4837 /* LivePhoto.swift in Sources */,
 				284AB72E224CC99900CD4837 /* AppDelegate.swift in Sources */,
 				284AB757224D73AB00CD4837 /* LiveWallpaperCell.swift in Sources */,
 				284AB74F224CDF3D00CD4837 /* Extensions.swift in Sources */,
